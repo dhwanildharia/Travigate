@@ -2,7 +2,7 @@ import xlrd
 import pymysql
 import pandas as pd
 # Open the workbook and define the worksheet
-book = xlrd.open_workbook("C:\\Users\\Viken\\Desktop\\Memories1\\BE project\\Commit1\\BE Project Final\\users.xlsx")
+book = xlrd.open_workbook()
 sheet = book.sheet_by_name("users_full_cleaned")
 
 # Establish a MySQL connection
